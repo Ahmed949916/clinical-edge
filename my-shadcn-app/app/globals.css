@@ -4,7 +4,9 @@
 @plugin "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
-
+body {
+  font-family: "Inter", sans-serif;
+}
 @tailwind utilities;
 @theme inline {
   --color-background: var(--background);

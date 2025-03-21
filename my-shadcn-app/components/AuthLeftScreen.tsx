@@ -28,7 +28,7 @@ const AuthLeftScreen = () => {
           </p>
           <button
             className="w-full flex h-8 p-[6px_10px] justify-center items-center gap-[2px] self-stretch 
-              rounded-lg border border-[#DEE0E3] bg-white shadow-[0px_1px_2px_rgba(20,21,26,0.05)]"
+              rounded-lg border border-[#DEE0E3] bg-white shadow-[0px_1px_2px_rgba(20,21,26,0.05)] font-medium cursor-pointer text-sm"
           >
             Contact Now
           </button>
