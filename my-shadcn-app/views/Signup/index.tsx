@@ -65,7 +65,7 @@ const SignupRight = () => {
                     {showPassword ? <EyeOpen /> : <Eye />}
                   </button>
                 </div>
-                <div className="flex gap-1 align-center">
+                <div className="flex gap-1 items-center">
                   <Information />
                   <p className="text-[rgba(13,17,38,0.4)] font-inter text-sm font-normal leading-5 tracking-[0.1px]">
                     Must be at least 8 characters with a mix of letters,

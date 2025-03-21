@@ -27,7 +27,7 @@ const CreateNewPasswordRight = () => {
           <h6 className="text-2xl font-semibold text-primary leading-8 tracking-[-0.3px] mb-2">
             Create a New Password
           </h6>
-          <p className="text-base font-normal text-[#0F132499] leading-6 tracking-[-0.2px] mb-9">
+          <p className="text-base font-normal text-[#0F132499] leading-6 tracking-[-0.2px] mb-8">
             Choose a strong password to keep your account secure.
           </p>
 
@@ -47,29 +47,28 @@ const CreateNewPasswordRight = () => {
                   {showPassword ? <EyeOpen /> : <Eye />}
                 </button>
               </div>
-              <div className="flex gap-1 align-center">
+              <div className="flex gap-1 items-center mb-1">
                 <Information />
                 <p className="text-[rgba(13,17,38,0.4)] font-inter text-sm font-normal leading-5 tracking-[0.1px]">
                   Must be at least 8 characters with a mix of letters, numbers,
                   and a special character
                 </p>
               </div>
-            </div>
-
-            <div className=" flex flex-col gap-2">
-              <Label className="text-sm font-medium">Re-write Password</Label>
-              <div className="relative">
-                <Input
-                  type={showRePassword ? "text" : "password"}
-                  placeholder="********"
-                />
-                <button
-                  type="button"
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer"
-                  onClick={() => setShowRePassword(!showRePassword)}
-                >
-                  {showRePassword ? <EyeOpen /> : <Eye />}
-                </button>
+              <div className=" flex flex-col gap-2">
+                <Label className="text-sm font-medium">Re-write Password</Label>
+                <div className="relative">
+                  <Input
+                    type={showRePassword ? "text" : "password"}
+                    placeholder="********"
+                  />
+                  <button
+                    type="button"
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 cursor-pointer"
+                    onClick={() => setShowRePassword(!showRePassword)}
+                  >
+                    {showRePassword ? <EyeOpen /> : <Eye />}
+                  </button>
+                </div>
               </div>
             </div>
 

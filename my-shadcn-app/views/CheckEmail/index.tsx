@@ -27,9 +27,7 @@ const CheckMailRight = () => {
             link in the email to set a new password.
           </p>
 
-          <CardContent className="p-0  flex flex-col gap-7">
-            <div className="flex flex-col gap-3"></div>
-
+          <CardContent className="p-0  flex flex-col">
             <CardFooter className="flex flex-col p-0 gap-6">
               <div className="flex items-center gap-2 w-full">
                 <div className="w-[25%] h-[2px] bg-[#E9EAEC]"></div>
@@ -45,7 +43,7 @@ const CheckMailRight = () => {
 
               <Button
                 variant="outline"
-                className="flex p-[10px_12px] justify-center items-center gap-[4px] self-stretch w-full mt-[8px] rounded-[12px] bg-[rgba(10,15,41,0.04)] cursor-pointer text-sm font-medium"
+                className="flex p-[10px_12px] justify-center items-center gap-[4px] self-stretch w-full  rounded-[12px] bg-[rgba(10,15,41,0.04)] cursor-pointer text-sm font-medium"
               >
                 Change email
               </Button>

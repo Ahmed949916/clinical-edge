@@ -16,10 +16,10 @@ const ResetPassRight = () => {
     <>
       <div className="flex items-center justify-center min-h-screen  m-auto">
         <div className="w-[588]">
-          <button className="p-2 rounded-xl bg-gray-100 hover:bg-gray-200 transition mb-11 cursor-pointer">
+          <button className="p-2 rounded-xl bg-gray-100 hover:bg-gray-200 transition mb-12 cursor-pointer">
             <BackArrow />
           </button>
-          <div className="flex items-center gap-1 mb-11">
+          <div className="flex items-center gap-1 mb-12">
             <Image src={Logo} alt="Logo" width={32} height={32} className="" />
             <h1 className="text-xl font-bold ">Clinical Edge</h1>
           </div>
